@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body{
+    background-color: #343434;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.title{
+    flex-direction: column;
+    line-height: 10px;   
+}
+h1{
+    font-size: 200;
+}
+li{
+    display: inline-block;
+    margin: 15px;
+}
+a{
+    color: #ffff;
+    transition: 0.5s all;
+}
+a:hover{
+    color:rgb(132, 14, 201);
+}
+#inscreva-se-btn{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 22px;
+}
+#inscreva-se-btn:hover{
+    color: #ffff;
+    background-color: rgb(132, 14, 201);
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    
+}
+span{
+    color:rgb(132, 14, 201);
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-size: 300;
+}
+img{
+    width: 580px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+form [type="submit"]{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(132, 14, 201);
+    color: #ffff;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    cursor: pointer;  
+}
+input{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
