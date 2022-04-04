@@ -1,6 +1,8 @@
-@media screen and (max-width: 480px){
+@media screen and (max-width: 500px){
     header{
         flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
     }
     main{
         flex-direction: column;
@@ -8,6 +10,9 @@
     h2{
         font-size: 30px;
         text-align: center;
+    }
+    p{
+        text-align: justify;
     }
     form{
         margin: 0 auto;
@@ -20,8 +25,5 @@
     }
     ul{
         text-align: center;
-    }
-    footer{
-        
     }
 }
